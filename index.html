@@ -1,0 +1,50 @@
+  
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FORM KONTROL</title>
+
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+       
+    </head>
+    <body>
+    <div class="container">  
+      <div id="contact"  style="border-radius: 10px;">
+        <h3 style="text-align: center;">Budotekno</h3>
+        <h4>İletişim Formu</h4>
+        <fieldset>
+          <input id="txtAd" autocomplete="off" class="txt" placeholder="Adınız" type="text" tabindex="1" required >
+        </fieldset>
+        <fieldset>
+          <input id="txtSoyad" autocomplete="off" class="txt" placeholder="Soyadınız" type="text" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input class="txt" autocomplete="off" placeholder="Telefon(İsteğe bağlı)" type="tel" tabindex="3">
+        </fieldset>
+        <fieldset>
+          <input class="txt" autocomplete="off" placeholder="Web Sitesi(İsteğe bağlı)" type="url" tabindex="4">
+        </fieldset>
+        <fieldset>
+          <textarea id="txtMesaj" autocomplete="off" class="txt" placeholder="Mesajınızı girin...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit"  onclick="kayitGonder()" >Gönder</button>
+        </fieldset>
+
+      
+      </div>
+
+     
+      <h3  id="bilgilendirme"></h3>
+      
+    </div>
+
+   
+    </body>
+</html>
+        
+        
+        
+     
